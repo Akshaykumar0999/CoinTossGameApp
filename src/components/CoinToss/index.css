@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #a35200;
+  font-family: 'Roboto';
+}
+.description {
+  font-size: 19px;
+  font-weight: bold;
+  color: #a35200;
+  font-family: 'Roboto';
+}
+.coin-image {
+  height: 120px;
+  width: 120px;
+}
+.coins-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.text {
+  margin-right: 10px;
+}
+.button {
+  background-color: #e2a139;
+  padding: 5px;
+  border-radius: 4px;
+  color: #a35200;
+  font-size: 8px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 65%;
+    height: 65%;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .description {
+    font-size: 32px;
+  }
+  .coin-image {
+    height: 250px;
+    width: 250px;
+  }
+  .text {
+    margin-right: 20px;
+  }
+  .button {
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  p {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 90%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .description {
+    font-size: 24px;
+  }
+  .coin-image {
+    height: 180px;
+    width: 180px;
+  }
+  .button {
+    font-size: 15px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
